@@ -1,0 +1,13 @@
+prefix=/Users/aniket.brahmehca/Documents/learning/GENAI/chatbottest
+exec_prefix=/Users/aniket.brahmehca/Documents/learning/GENAI/chatbottest
+libdir=/Users/aniket.brahmehca/Documents/learning/GENAI/chatbottest/lib
+sharedlibdir=/Users/aniket.brahmehca/Documents/learning/GENAI/chatbottest/lib
+includedir=/Users/aniket.brahmehca/Documents/learning/GENAI/chatbottest/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
